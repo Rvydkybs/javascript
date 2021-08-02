@@ -1,0 +1,48 @@
+<!--
+// What is JSON?
+
+//     JSON stands for JavaScript Object Notation-JSON ;"js nesne gösterme "anlamına gelir
+//     JSON is a lightweight data interchange format-JSON, hafif bir veri değişim biçimidir
+//     JSON is language independent *-JSON is language independent 
+//     JSON is "self-describing" and easy to understand-JSON "kendi kendini açıklayan" ve anlaşılması kolaydır
+//     JSON format is text only
+//     Code for reading and generating JSON data can be written in any programming language. -JSON verilerini okumak
+//     ve oluşturmak için kod herhangi bir programlama dilinde yazılabilir.
+a JavaScript program can easily convert JSON data into native JavaScript objects.
+JSON Syntax Rules
+
+    Data is in name/value pairs-veriler key-value şeklinde yazılır
+    Data is separated by commas-veriler virgülle ayrılır
+    Curly braces hold objects-Kıvrımlı parantezler nesneleri tutar
+    Square brackets hold arrays-Köşeli parantezler dizileri tutar
+
+Converting a JSON Text to a JavaScript Object;
+    let text = '{ "employees" : [' +
+    '{ "firstName":"John" , "lastName":"Doe" },' +
+    '{ "firstName":"Anna" , "lastName":"Smith" },' +
+    '{ "firstName":"Peter" , "lastName":"Jones" } ]}'; 
+    Then, use the JavaScript built-in function "JSON.parse()" to convert the string into a JavaScript object:
+    const obj = JSON.parse(text); 
+    Finally, use the new JavaScript object in your page:
+    <p id="demo"></p>
+
+    <script>
+    document.getElementById("demo").innerHTML =
+    obj.employees[1].firstName + " " + obj.employees[1].lastName;
+    </script> 
+-->
+<!DOCTYPE html>
+<html lang="tr-TR" style="color:palevioletred">
+<head>
+    <title>JS ÖĞRENME SERİSİ</title>
+    <link type="text/css" rel="stylesheet" href=""></link>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+    <title>EĞİTİM</title>
+</head>
+
+<body >
+    <script type="text/javascript" language="javascript" src="java.js"></script>
+  
+</body>
+
+</html>
